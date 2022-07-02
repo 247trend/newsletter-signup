@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Newletter Signup</title>
+
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="./css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="text-center">
+        <main class="form-signin w-100 m-auto">
+            <form action="/" method="post">
+                <img class="mb-4" src="./images/logo.png" alt="" width="72" height="72" />
+                <h1 class="h3 mb-3 fw-normal">Sign up my Newsletter</h1>
+
+                <div class="form-floating">
+                    <input type="text" id="floatingFName" class="form-control top" placeholder="First Name" name="firstName" autofocus/>
+                    <label for="floatingFName">First Name</label>
+                </div>
+                <div class="form-floating">
+                    <input type="text" id="floatingLName" class="form-control mid"  placeholder="Last Name" name="lastName"/>
+                    <label for="floatingLName">Last Name</label>
+                </div>
+                <div class="form-floating">
+                    <input type="email" id="floatingEmail" class="form-control bottom" placeholder="name@example.com" name="email" />
+                    <label for="floatingEmail">Email</label>
+                </div>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Up</button>
+                <p class="mt-5 mb-3 text-muted">&copy; JY</p>
+            </form>
+        </main>
+    </body>
+</html>
